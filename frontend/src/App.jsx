@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import Tasks from './pages/Tasks';
 
 // Setup axios defaults
-axios.defaults.baseURL = 'http://localhost:3001/api';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 const ProtectedRoute = ({ children, user }) => {
   if (!user) {
