@@ -47,7 +47,7 @@ Build a web app where users can create projects, assign tasks, and track progres
 🔑 DEFAULT CREDENTIALS
 -----------------------
 After setting up, you can sign up as a new user or use:
-- Username: django_admin
-- Password: secret (if already created during testing)
+- Username: admin
+- Password: admin_password
 
 Developed for Full-Stack Team Task Manager Assessment.
